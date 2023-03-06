@@ -25,7 +25,6 @@ class Word:
                         letter.positions.append(i+1)
 
     def decode(self, lista):
-        print(lista)
         auxiliar = []
 
         for letter in lista.word: 
